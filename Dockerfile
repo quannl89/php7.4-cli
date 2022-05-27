@@ -34,6 +34,7 @@ RUN apt-get update \
 		php7.4-mysql \
 		php7.4-mongodb \
 		php7.4-gd \
+	        php7.4-soap \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
